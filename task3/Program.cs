@@ -36,6 +36,12 @@ class Program
         //Cat cat = new Cat { Age = 10, Name = "Fluffy" };
         Cat sameCat = new Cat("Fluffy") {  };
         Console.WriteLine($"{sameCat.Name} {sameCat.Age}");
+        Console.WriteLine($"{sameCat.Name} {sameCat.Age}");
+        Console.WriteLine($"{sameCat.Name} {sameCat.Age}");
+        Console.WriteLine($"{sameCat.Name} {sameCat.Age}");
+
+        Console.WriteLine($"{sameCat.Name} {sameCat.Age}");
+
     }
 }
 
